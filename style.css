@@ -74,4 +74,25 @@ ATOMIX AI
         color: white;
         text-decoration: none;
     }
-    
+    /* Styles for desktop */
+@media screen and (min-width: 1024px) {
+    #responsiveVideo {
+      width: 80%;
+    }
+  }
+  
+  /* Styles for tablet */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    #responsiveVideo {
+      width: 90%;
+    }
+  }
+  
+  /* Styles for mobile */
+  @media screen and (max-width: 767px) {
+    #responsiveVideo {
+      width: 100%;
+    }
+  }
+  
+   
