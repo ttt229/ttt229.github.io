@@ -175,13 +175,11 @@
               dots[slideIndex-1].className += " active";
             }
             </script>
-        <video autoplay loop muted>
-            <source src="vid.mp4" type="video/mp4">
-            <source src="vid.mp4" type="video/mp4" media="(min-width: 1024px)">
-          <source src="vide.mp4" type="video/mp4" media="(min-width: 768px) and (max-width: 1023px)">
-          <source src="vid.mp4" type="video/mp4" media="(max-width: 767px)">
-            Your browser does not support the video tag.
-        </video>
+            <video id="responsiveVideo" autoplay loop muted playsinline>
+              <source src="vid.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            
     </main>
 
     <footer>
@@ -189,7 +187,7 @@
         <div class="social-media">
             <a href="https://facebook.com" target="_blank">FB</a>
             <a href="https://twitter.com" target="_blank">TW</a>
-            <a href="https://www.instagram.com/atomix.ai_club/" target="_blank">IG</a>
+            <a href="https://instagram.com" target="_blank">IG</a>
         </div>
     </footer>
 </body>
